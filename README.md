@@ -7,7 +7,6 @@ robotcode
     <li>Fix the code to make sure everything works well.</li>
   </ul>
   <li>Motor assignments</li>
-</ol>
   <ul>
     <li>"Left motor 1" (Listed as motor 1 in code) goes to "Talon 0"(LEFT DRIVE)</li>
     <li>"Left motor 2" (Listed as motor 2 in code) goes to "Talon 1"(LEFT DRIVE)</li>
@@ -18,3 +17,4 @@ robotcode
     <li>"Chain Arm Head Tilt" (Listed as motor 7 in code) goes to "Victor 1"</li>
     <li>"Ball Retract/Release Motor" (Listed as motor 8 in the code) goes to "Victor 2"</li>
   </ul>
+</ol>
