@@ -8,6 +8,7 @@ robotcode
   <ul>
 </ol>
 <ol>
+  <li>Motors and their assignments</li>
   <ul>
     <li>"Left motor 1" (Listed as motor 1 in code) goes to "Talon 0"(LEFT DRIVE)</li>
     <li>"Left motor 2" (Listed as motor 2 in code) goes to "Talon 1"(LEFT DRIVE)</li>
