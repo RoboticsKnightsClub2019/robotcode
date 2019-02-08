@@ -1,9 +1,13 @@
 # robotcode
 robotcode
 <ol>
-  <li>fdsfasdf</li>
+  <li>Things to get done</li>
+  <ul>
+    <li>finish robot</li>
+  <ul>
 </ol>
 
 <ul>
   <li>blhagageag</li>
-</li>
+</ul>
+
