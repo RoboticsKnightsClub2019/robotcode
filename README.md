@@ -6,7 +6,7 @@ robotcode
     <li>Finish robot.</li>
     <li>Fix the code to make sure everything works well.</li>
   </ul>
-  
+  <br></br>
   <li>Motor assignments</li>
   <ul>
     <li>"Left motor 1" (Listed as motor 1 in code) goes to "Talon 0"(LEFT DRIVE)</li>
