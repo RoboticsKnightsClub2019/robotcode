@@ -3,8 +3,7 @@ robotcode
 <ol>
   <li>Things to get done</li>
   <ul>
-    <li>Finish robot.</li>
-    <li>Fix the code to make sure everything works well.</li>
+    <li>Fix powers code.</li>
   </ul>
   <br></br>
   <li>Motor assignments</li>
