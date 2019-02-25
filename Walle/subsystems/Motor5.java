@@ -7,7 +7,7 @@ import edu.wpi.first.wpilibj.SpeedController;
 
 public class Motor5 extends Subsystem {
 
-    private final SpeedController motor5 = RobotMap.motor5motor5;
+    private final SpeedController motor5 = RobotMap.motor4motor4;
 
     @Override
     public void initDefaultCommand() {

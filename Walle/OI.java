@@ -30,19 +30,19 @@ public class OI {
         on_off1.toggleWhenPressed(new LiftArm());
 
         button1 = new JoystickButton(joystick, 3);
-        button1.whileHeld(new Command3(0.5));
+        button1.whileHeld(new Command3(1));
         button2 = new JoystickButton(joystick, 4);
-        button2.whileHeld(new Command3(-0.5));
+        button2.whileHeld(new Command3(-1));
 
         button3 = new JoystickButton(joystick1, 1);
-        button3.whileHeld(new Command4(0.5));
+        button3.whileHeld(new Command4(0.55));
         button4 = new JoystickButton(joystick1, 2);
-        button4.whileHeld(new Command4(-0.5));
+        button4.whileHeld(new Command4(-0.55));
 
         button5 = new JoystickButton(joystick, 1);
-        button5.whileHeld(new Command5(0.5));
+        button5.whileHeld(new Command5(-1));
         button6 = new JoystickButton(joystick, 2);
-        button6.whileHeld(new Command5(-0.5));
+        button6.whileHeld(new Command5(1));
         
 
 

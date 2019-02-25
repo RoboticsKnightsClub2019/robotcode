@@ -6,7 +6,7 @@ import org.usfirst.frc1537.Walle.Robot;
 public class LiftArm extends Command {
 
     public LiftArm() {
-        requires(Robot.motor1_2);
+        requires(Robot.motor1);
     }
 
     @Override
@@ -15,7 +15,7 @@ public class LiftArm extends Command {
 
     @Override
     protected void execute() {
-        Robot.motor1_2.LiftArm(Robot.oi.getJoystick1Y());
+        Robot.motor1.LiftArm(Robot.oi.getJoystick1Y());
     }
 
     @Override
@@ -25,7 +25,7 @@ public class LiftArm extends Command {
 
     @Override
     protected void end() {
-        Robot.motor1_2.LiftArm(0.2);
+        Robot.motor1.LiftArm(0.01);
     }
 
     @Override

@@ -20,7 +20,7 @@ public class Robot extends TimedRobot {
     public static OI oi;
 
     public static DriveTrain driveTrain;
-    public static Motor1_2 motor1_2;
+    public static Motor1_2 motor1;
     public static Motor3 motor3;
     public static Motor4 motor4;
     public static Motor5 motor5;
@@ -31,7 +31,7 @@ public class Robot extends TimedRobot {
         CameraServer.getInstance().startAutomaticCapture();
         RobotMap.init();
         driveTrain = new DriveTrain();
-        motor1_2 = new Motor1_2();
+        motor1 = new Motor1_2();
         motor3 = new Motor3();
         motor4 = new Motor4();
         motor5 = new Motor5();
