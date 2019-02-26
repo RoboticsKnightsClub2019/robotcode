@@ -48,6 +48,7 @@ public class RobotMap {
         motor2motor2.setInverted(false); 
         motor3motor3 = new PWMVictorSPX(6);
         motor3motor3.setInverted(false);
+        lift1 = new SpeedControllerGroup(motor3motor3);
        motor4motor4 = new PWMVictorSPX(7);
        motor4motor4.setInverted(false);
     
