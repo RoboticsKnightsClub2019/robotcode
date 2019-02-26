@@ -3,10 +3,10 @@ package org.usfirst.frc1537.Walle.commands;
 import edu.wpi.first.wpilibj.command.Command;
 import org.usfirst.frc1537.Walle.Robot;
 
-public class LiftArm extends Command {
+public class LiftArm1 extends Command {
 
-    public LiftArm() {
-        requires(Robot.motor1);
+    public LiftArm1() {
+        requires(Robot.motor3);
     }
 
     @Override
@@ -15,7 +15,7 @@ public class LiftArm extends Command {
 
     @Override
     protected void execute() {
-        Robot.motor1.LiftArm1(Robot.oi.getJoystick1Y());
+        Robot.motor3.LiftArm1(Robot.oi.getJoystick1Y(5));
     }
 
     @Override
@@ -25,7 +25,7 @@ public class LiftArm extends Command {
 
     @Override
     protected void end() {
-        Robot.motor1.LiftArm(0.01);
+        Robot.motor3.LiftArm1(0.01);
     }
 
     @Override
