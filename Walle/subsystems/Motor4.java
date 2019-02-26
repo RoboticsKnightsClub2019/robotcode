@@ -7,11 +7,12 @@ import edu.wpi.first.wpilibj.SpeedController;
 
 public class Motor4 extends Subsystem {
 
-    private final SpeedController motor4 = RobotMap.motor3motor3;
+    private final SpeedController motor4 = RobotMap.lift1;
 
     @Override
     public void initDefaultCommand() {
     }
+    
     public void vint(double power) {
         motor4.set(power);
     }
