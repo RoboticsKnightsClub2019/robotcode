@@ -15,6 +15,7 @@ public class OI {
     public JoystickButton button6;
     public JoystickButton on_off;
     public JoystickButton on_off1;
+    public JoystickButton on_off2;
     public Joystick joystick;
     public Joystick joystick1;
 
@@ -26,19 +27,22 @@ public class OI {
         on_off = new JoystickButton(joystick, 10);
         on_off.toggleWhenPressed(new Drive());
       
-        on_off1 = new JoystickButton(joystick1, 10);
+        on_off1 = new JoystickButton(joystick1, 9);
         on_off1.toggleWhenPressed(new LiftArm());
+        
+        on_off2 = new JoystickButton(joystick1, 10);
+        on_off2.toggleWhenPressed(new LiftArm1());
 
         button1 = new JoystickButton(joystick, 3);
         button1.whileHeld(new Command3(1));
         button2 = new JoystickButton(joystick, 4);
         button2.whileHeld(new Command3(-1));
-
+*//
         button3 = new JoystickButton(joystick1, 1);
         button3.whileHeld(new Command4(0.55));
         button4 = new JoystickButton(joystick1, 2);
         button4.whileHeld(new Command4(-0.55));
-
+*//
         button5 = new JoystickButton(joystick, 1);
         button5.whileHeld(new Command5(-1));
         button6 = new JoystickButton(joystick, 2);
@@ -56,7 +60,11 @@ public class OI {
     	return joystick.getX();
     }
 
-    public double getJoystick1Y() {
+    public double getJoystick1Y(1) {
+    	return joystick1.getY();
+    }
+    
+    public double getJoystick1Y(5) {
     	return joystick1.getY();
     }
 }
